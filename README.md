@@ -1,6 +1,6 @@
 # GraphQL-Python-Django-Graphene
 
-Full-Stack React, Python and GraphQL - O'Reilly
+Full-Stack React, Python and GraphQL - O'Reilly  
 https://github.com/PacktPublishing/Full-Stack-React-Python-and-GraphQL
 
 # Setup Environment
@@ -19,14 +19,6 @@ https://github.com/PacktPublishing/Full-Stack-React-Python-and-GraphQL
 ```
 $ pipenv shell
 (GraphQL-Django) bash-3.2$ python manage.py runserver
-(GraphQL-Django) bash-3.2$ exit
 http://localhost:8000
+(GraphQL-Django) bash-3.2$ exit
 ```
-
-# GraphQL
-## Built-in scalar data types
-- Int
-- Float
-- String
-- Boolean: true or false
-- ID: it is a string, not int
