@@ -2,6 +2,7 @@
 
 Chapter 4 of Full-Stack React, Python and GraphQL - O'Reilly  
 https://github.com/PacktPublishing/Full-Stack-React-Python-and-GraphQL
+https://github.com/flavors/django-graphql-jwt
 
 # Setup Environment
 | Requirements | Installation | Notes |
@@ -13,7 +14,9 @@ https://github.com/PacktPublishing/Full-Stack-React-Python-and-GraphQL
 | cloudinary.com | SaaS service | image management |
 | Graphene | $ pipenv shell <br/> $ pipenv install graphene | GraphQL in Python <br/>https://graphene-python.org/
 | GraphQL | Playground| <br/> https://graphql.org/swapi-graphql/? <br/> vs <br/> https://swapi.dev/ <br/> https://swapi.dev/api/films |
-| Django | $ pipenv shell <br/> $ pipenv install django graphene-django django-graphql-jwt django-cors-headers <br/> $ pipenv install --dev autopep8 <br/> $ django-admin startproject app <br/> $ cd app  <br/> $ python manage.py migrate <br/> $ python manage.py startapp tracks <br/> update models.py in "tracks" <br/> update settings.py in "app" <br/>$ python manage.py makemigrations <br/> $ python manage.py migrate 
+| Django | $ pipenv shell <br/> $ pipenv install django graphene-django django-graphql-jwt django-cors-headers <br/> $ pipenv install --dev autopep8 <br/> $ django-admin startproject app <br/> $ cd app  <br/> $ python manage.py migrate <br/> $ python manage.py startapp tracks <br/> update models.py in "tracks" <br/> update settings.py in "app" <br/>$ python manage.py makemigrations <br/> $ python manage.py migrate |
+| Django GraphQL JWT | | https://github.com/flavors/django-graphql-jwt |
+| https://insomnia.rest/download for mac | | Similar to postman, but also support GraphQL| 
 
 # Dev Environment
 Create sample data
