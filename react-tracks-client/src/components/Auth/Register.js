@@ -49,7 +49,7 @@ const Register = ({ classes }) => {
               </form>
             {/* );
           }}
-        </Mutation> */}
+        </Mutation> */} 
       </Paper>
     </div>
   )
