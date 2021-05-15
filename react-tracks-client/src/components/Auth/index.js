@@ -5,5 +5,5 @@ import Login from './Login'
 import Register from './Register'
 
 export default withRoot(() => {
-  return <Register></Register>
+  return <Register />
 });

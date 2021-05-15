@@ -1,4 +1,6 @@
 import React from "react";
+import {Mutation} from 'react-apollo'
+import {gql} from 'apollo-boost'
 import withStyles from "@material-ui/core/styles/withStyles";
 import Typography from "@material-ui/core/Typography";
 import Avatar from "@material-ui/core/Avatar";
@@ -17,7 +19,40 @@ import Gavel from "@material-ui/icons/Gavel";
 import VerifiedUserTwoTone from "@material-ui/icons/VerifiedUserTwoTone";
 
 const Register = ({ classes }) => {
-  return <div>Register</div>;
+  return (
+    <div className={classes.root}>
+      <Paper className={classes.paper}>
+        <Avatar className={classes.avatar}>
+          <Gavel />
+        </Avatar>
+        <Typography variant="headline">
+          Register
+        </Typography>
+        {/* <Mutation>
+          {() => {
+            return ( */}
+              <form className={classes.form}>
+                <FormControl margin="normal" required fullWidth>
+                  <InputLabel htmlFor="usrname">Username</InputLabel>
+                  <Input id="username" />
+                </FormControl>
+                <FormControl margin="normal" required fullWidth>
+                  <InputLabel htmlFor="email">Email</InputLabel>
+                  <Input id="email" type="email" />
+                </FormControl>
+                <FormControl margin="normal" required fullWidth>
+                  <InputLabel htmlFor="password">Password</InputLabel>
+                  <Input id="password" type="password" />
+                </FormControl>
+                <Button type="submit" fullWidth variant="contained" color="secondary" className={classes.submit}>Register</Button>
+                <Button color="primary" variant="outlined" fullWidth>Previous user? Log in here</Button>
+              </form>
+            {/* );
+          }}
+        </Mutation> */}
+      </Paper>
+    </div>
+  )
 };
 
 const styles = theme => ({
