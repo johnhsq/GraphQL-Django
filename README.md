@@ -33,9 +33,14 @@ $ python manage.py shell    # Django Shell
 
 # Run Environment
 ```
+# start server
+$ cd app
 $ pipenv shell
 (GraphQL-Django) bash-3.2$ python manage.py runserver
 http://localhost:8000
 http://localhost:8000/graphql
 (GraphQL-Django) bash-3.2$ exit
+# start client
+$ cd react-tracks-client
+$ yarn start
 ```
