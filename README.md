@@ -38,7 +38,6 @@ $ cd app
 (GraphQL-Django) bash-3.2$ python manage.py runserver
 http://localhost:8000
 http://localhost:8000/graphql
-(GraphQL-Django) bash-3.2$ exit
 # start client
 $ cd react-tracks-client
 $ yarn start
